@@ -1,0 +1,426 @@
+@media only screen and (max-width:1300px) {
+    .topside {
+        width: 100%;
+        align-items: center;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+
+
+    .text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .brandname h3 {
+        margin: 0px;
+        display: flex;
+        padding-left: 10px;
+
+    }
+
+    .topside h1 {
+        font-size: 50px;
+    }
+
+    .imageside {
+        display: none;
+    }
+
+    .heroheader {
+        display: flex;
+        align-items: center;
+    }
+
+    .heropage2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contentside {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .booking {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .product-cards {
+        flex-direction: column;
+    } */
+
+    .text {
+        margin: 0;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+    .button.filled_btn{
+        padding: 10px 30px 10px 30px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:890px) {
+    .topside h1 {
+        font-size: 35px;
+    }
+    .brandname .list{
+        display: none;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .join h2 {
+        font-size: 30px;
+    }
+
+    .brandname h3 {
+        margin: 0px;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .text h2 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button.filled_btn{
+        padding: 10px 30px 10px 30px;
+    }
+
+
+    .button .transparentBtn {
+        display: none !important;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    .brandname {
+        position: relative;
+        color: white;
+        padding: 15px;
+    }
+
+
+    h3 {
+        margin: 0;
+    }
+
+
+
+    .product_box {
+        display: grid !important;
+        grid-template-columns: repeat(1fr, 1fr, 1fr);
+    }
+
+    .lifecard {
+        align-items: center;
+        display: flex;
+    }
+
+    .button.button {
+        padding: 10px;
+    }
+
+    .cards {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    .designbox {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (min-width: 890px) {
+    .ham-list {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        height: auto;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    .ham-list li {
+        margin: 0 15px;
+    }
+
+    .open,
+    .close {
+        display: none;
+    }
+
+    .ham-layer1 .ham-dropdown1,
+    .ham-layer2 .ham-dropdown2 {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 150px;
+        display: none;
+    }
+
+
+    .ham-layer1:hover .ham-dropdown1,
+    .ham-layer2:hover .ham-dropdown2 {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:640px) {
+    .topside h1 {
+        font-size: 25px;
+    }
+
+    .open {
+        display: inline;
+        /* Show hamburger icon */
+    }
+
+    .close {
+        display: none;
+        /* Hide close icon */
+    }
+
+    .topside {
+        gap: 0px !important;
+    }
+
+    .about .company {
+        display: flex;
+        align-items: center;
+    }
+
+    .company .comp {
+        align-items: center;
+    }
+
+    .about .contact_details {
+        align-items: center;
+    }
+
+    .contact_details .details {
+        align-items: center;
+        text-align: center;
+    }
+
+    .brandname {
+        gap: 0px !important;
+    }
+
+    .subfooter .iconSide {
+        padding-right: 20px;
+    }
+
+
+    .button.button {
+        padding: 10px;
+    }
+
+    .brandname h3 {
+        margin: 0px;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .product-cards {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+
+.heropage2 img {
+    width: 300px;
+
+}
+
+@media only screen and (max-width:480px) {
+    .button.button {
+        padding: 5px;
+
+    }
+    .contentside {
+        line-height: 0px;
+    }
+
+    /* .list {
+        padding-left: 38px;
+        text-align: center;
+    } */
+
+    .brandname h3 {
+        font-size: 15px;
+    }
+
+    .topside h1 {
+        font-size: 18px;
+    }
+
+    .topside p {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .topside h5 {
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .iconSide {
+        font-size: 15px !important;
+    }
+
+    .subfooter h6 {
+        font-size: 10px;
+    }
+
+    .join h6 {
+        font-size: 10px;
+    }
+
+    .brandname {
+        gap: 0px !important;
+    }
+
+    .topside {
+        gap: 0px !important;
+    }
+
+    .mail {
+        width: 200px !important;
+    }
+
+    .title p {
+        padding-left: 33px;
+    }
+
+    .title h2 {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .join h2 {
+        font-size: 25px;
+    }
+
+
+    .topside h1 {
+        font-size: 20px;
+    }
+
+    .text h2 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (max-width:338px) {
+    .topside h5 {
+        font-size: 12px;
+        width: 100% !important;
+        text-align: center;
+    }
+    .contentside {
+        line-height: 0px;
+    }
+
+
+    .topside h3 {
+        font-size: 15px !important;
+    }
+
+    .topside h1 {
+        font-size: 15px;
+    }
+
+    .topside p {
+        font-size: 10px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+
+
+
+    .topside {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .inputbar {
+        width: 90%;
+    }
+
+    .title h2 {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .join h2 {
+        font-size: 20px;
+    }
+}
